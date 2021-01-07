@@ -1,0 +1,174 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+nav {
+    background-color: #333;
+    padding: 13px 40px;
+    border-bottom: 1px solid #222;
+    box-shadow: 0 -3px 5px #222;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1;
+}
+
+nav .logo {
+    width: 150px;
+}
+
+.links a {
+    margin: 0px 20px;
+    color: #bbb;
+    text-decoration: none;
+}
+
+.links {
+    padding-top: 15px;
+}
+
+.links a:hover {
+    color: rgb(166, 207, 253);
+}
+
+.links .selected {
+    color: rgb(166, 207, 253);
+}
+
+#banner {
+    width: 100%;
+    height: 100vh;
+    margin-top: 120px;
+    position: relative;
+}
+
+#banner .banner-img {
+    top: -30px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    position: absolute;
+}
+
+#banner .banner-img img {
+    max-height: 100%;
+    min-height: 100%;
+    max-width: 100%;
+    object-fit: fill;
+}
+
+footer {
+    background: #333;
+    color: #bbb;
+    flex-shrink: 0
+}
+
+html, body {
+    height: 100%;
+}
+
+.content {
+    flex: 1 0 auto;
+}
+
+footer .footer-bottom {
+    background: #222;
+    text-align: center;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    width: 100%;
+}
+
+footer .footer-content {
+    background-color: #333;
+    padding-bottom: 30px;
+}
+
+footer .logo-footer {
+    width: 40%;
+    margin-top: 70px;
+    border: none;
+    outline: none;
+}
+
+footer .footer-list {
+    list-style: none;
+}
+
+footer .footer-info {
+    margin-top: 40px;
+}
+
+footer .footer-title {
+    padding-bottom: 10px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #bbb;
+}
+
+footer a:hover {
+    color: rgb(166, 207, 253);
+}
+
+footer .footer-info {
+    line-height: 3em;
+}
+
+div .polaroid {
+    width: 29%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 60px 10px 100px 40px;
+    padding: 30px 30px 0 30px;
+    display: inline-block;
+}
+
+div .polaroid2 {
+    width: 29%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 50px 10px 100px 40px;
+    padding: 30px 30px 0 30px;
+    display: inline-block;
+}
+  
+.polaroid img {
+    width: 100%
+}
+
+.polaroid2 img {
+    width: 100%
+}
+  
+div .container {
+    text-align: center;
+    padding: 10px 20px;
+}
+
+.polaroid:hover,
+.polaroid2:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.polaroid a,
+.polaroid2 a {
+    text-decoration: none;
+    color: #222;
+}
+
+.gallery-title {
+    padding-top: 100px;
+}
+
+.gallery-head {
+    padding-left: 50px;
+    padding-top: 120px;
+}
